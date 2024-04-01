@@ -1,0 +1,331 @@
+*{
+    margin:0;
+    border:border-box;
+    
+#nav-bar{
+    height:50px;
+    background-color: #131921;
+    color:white;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+#logo{
+    height:50px;
+    width:100px;
+    background-image: url('logo.webp');
+    background-size: cover; /* Adjust the background size as needed */
+    background-repeat: no-repeat;
+    
+}
+
+
+#locationbold{
+    margin:2px;
+}
+
+#searchbutton{
+    background-color: #f3a847;
+    height:40px;
+}
+#searchdiv{
+    margin:3px;
+   
+}
+
+input{
+    height:34px;
+    width:750px;
+}
+#language{
+    margin:10px;
+    height:30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#indianflag{
+    margin:3px;
+    width:34px;
+    height:20px;
+    background-image: url('indian-flag-icon-21349.png');
+    background-size:contain; /* Adjust the background size as needed */
+    background-repeat: no-repeat;
+}
+#account{
+    margin:3px;
+}
+#orders{
+    margin:3px;
+}
+#cart{
+    margin:8px;
+    font-size: 30px;
+}
+#secondstrip{
+    background-color: #232f3e;
+    height:39px;
+    color:white;
+    display:flex;
+    flex-direction: row;
+}
+#three{
+    padding-left:7px;
+    margin:8px;
+    font-size: 24px;
+    display:flex;
+    flex-direction: row;
+    
+}
+#all{
+    
+    font-size: 20px;
+    padding:3px;
+}
+a{
+    
+    margin-right: 29px;
+}
+#restofit{
+    margin:9px;
+}
+#topimg{
+    height:230px;
+    background-image: url("topimg.jpg");
+    background-size: cover; /* Adjust the background size as needed */
+    background-repeat: no-repeat;
+}
+#contentdiv{
+    background-color: #e3e6e6;
+}
+#box1parent{
+
+    height:415px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align:center;
+
+}
+#r1c1{
+    
+
+    height:420px;
+    width:330px;
+    background-image: url("pc.jpg");
+    background-size: contain; /* Adjust the background size as needed */
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+    background-size: 280px;
+}
+#r1c2{
+    height:420px;
+    width:330px;
+    background-image: url("watches.jpg");
+    background-size: contain; /* Adjust the background size as needed */
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: 280px;
+    background-position: center;
+}
+#r1c3{
+    height:420px;
+    width:330px;
+    background-image: url("toys.jpg");
+    background-size: contain; /* Adjust the background size as needed */
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: 280px;
+    background-position: center;
+}
+#r1c4{
+    height:420px;
+    width:330px;
+    background-image: url("shoes.jpg");
+    background-size: contain; /* Adjust the background size as needed */
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: 280px;
+    background-position: center;
+}
+#box2parent{
+
+    height:415px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align:center;
+
+}
+#r2c1{
+    
+
+    height:420px;
+    width:330px;
+    background-image: url("tsht.jpg");
+    background-size: contain; /* Adjust the background size as needed */
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center;
+    background-size: 280px;
+}
+#r2c2{
+    height:420px;
+    width:330px;
+    background-image: url("plantzs.jpg");
+    background-size: contain; /* Adjust the background size as needed */
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: 280px;
+    background-position: center;
+}
+#r2c3{
+    height:420px;
+    width:330px;
+    background-image: url("lptop.jpg");
+    background-size: contain; /* Adjust the background size as needed */
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: 280px;
+    background-position: center;
+}
+#r2c4{
+    height:420px;
+    width:330px;
+    
+    background-size: contain; /* Adjust the background size as needed */
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: 280px;
+    background-position: center;
+}
+#r1c1img{
+    margin-top:50px;
+    font-size: 25px;
+}
+#r1c2img{
+    margin-top:50px;
+    font-size: 25px;
+}
+#r1c3img{
+    margin-top:50px;
+    font-size: 25px;
+}
+#r1c4img{
+    margin-top:50px;
+    font-size: 25px;
+}
+#r2c1img{
+    margin-top:50px;
+    font-size: 25px;
+}
+#r2c2img{
+    margin-top:50px;
+    font-size: 25px;
+}
+#r2c3img{
+    margin-top:50px;
+    font-size: 25px;
+}
+#r2c4img{
+    margin-top:50px;
+    font-size: 25px;
+}
+.see-more {
+    position: relative;
+    top: 300px; /* Adjust the distance from the bottom as needed */
+    right:125px; /* Adjust the distance from the left as needed */
+    color:#03967a; /* Color for the "See More" text */
+}
+#mainlast{
+    border-top: 3px solid #ccc;
+    
+    position: relative;
+    text-anchor:middle;
+    height:160px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #ccc;
+    background-color: white;
+}
+#signin{
+    
+    background-color: #ffd774;
+    width:150px;
+    font-size: medium;
+}
+#bottomfirst{
+    height:49px;
+    background-color: #485769;
+    
+    text-align: center;
+    text-decoration:none; 
+    font-size: medium;
+    
+    
+}
+#ii{
+    text-decoration: none;
+    color:white;
+}
+#middle{
+    height:500px;
+    background-color: #232f3e;
+    color:white;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+   
+}
+.custom-paragraph{
+    margin-bottom: 12px;
+}
+.custom-paragraph b{
+    font-size: 19px;;
+}
+#midlast{
+    height:160px;
+    
+    border-bottom: 1px solid gray;
+    
+    background-color: #232f3e;
+    border-top: 1px solid gray;
+   
+}
+#lastlogo{
+
+    
+    height:80px;
+    background-image: url("logo.webp");
+    background-size: contain; /* Adjust the background size as needed */
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+    
+    
+}
+#lastone{
+    
+    display:flex;
+    flex-direction: row;
+    font-size: 15px;;
+    background-color: #131a22;
+    color:#546d8e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.p{
+    color:white;
+}
+#foot
+{
+    background-color: #131a22;
+    text-align: center;
+    color:white;
+    font-size: small;
+
+}
